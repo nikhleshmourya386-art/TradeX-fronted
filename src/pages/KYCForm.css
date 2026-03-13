@@ -1,0 +1,107 @@
+.kyc-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.kyc-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.kyc-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+.kyc-form input,
+.kyc-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.kyc-form input:focus,
+.kyc-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.kyc-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.kyc-form .checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.kyc-form .checkbox input {
+  margin-top: 4px;
+}
+
+.kyc-form button {
+  width: 50%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.kyc-form button:hover {
+  background-color: #0056b3;
+}
+
+.btn.btn-blue {
+  display: inline-block;
+  background-color: #0066cc;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.btn.btn-blue:hover {
+  background-color: #004a99;
+}
+
+
+.kyc-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.kyc-left,
+.kyc-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.kyc-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}

@@ -1,0 +1,23 @@
+/* Sticky Menu Styling */
+.sticky-menu {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for selected menu item */
+.menu.selected {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Profile dropdown hover improvements (optional) */
+.profile-dropdown .dropdown-item:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,50 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules
+<<<<<<< HEAD
+env
+package-lock.json
+package.json
+=======                                 
+# local env files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.development.local
+.env.test.local                         
+# local build files
+/build
+# local package files
+/package-lock.json
+/package.json       
+>>>>>>> aaef4ff671bc2f8311864e74206b7fcd3508a140
+# local environment files
+.env
+.env.local
+.env.development
+.env.test                               
+
+

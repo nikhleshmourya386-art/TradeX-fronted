@@ -1,0 +1,53 @@
+.add-money-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f5faff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.add-money-form label {
+  display: block;
+  margin-top: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.add-money-form input,
+.add-money-form select,
+.add-money-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.add-money-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.add-money-form button {
+  padding: 12px 30px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-money-form button:hover {
+  background-color: #218838;
+}
